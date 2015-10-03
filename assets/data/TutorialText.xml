@@ -1,0 +1,34 @@
+<TutorialText>
+	<Text>Welcome to the RPSwipe Tutorial\n\n\n\nSwipe Left to Continue</Text>
+	<Text>RPSwipe is a\nRock, Paper, Scissors (RPS)\ngame with a twist.\n\nSwipe Left to Continue</Text>
+	<Text>Rock breaks Scissors\nScissors cut Paper\nPaper covers Rock\n\nSwipe Left to Continue</Text>
+	<Text>Let's try that now\n\n\nSwipe Right\nand see what happens</Text>
+	<Text>Very Good\nRock breaks Scissors\n\n\nNow Swipe Up</Text>
+	<Text>Excellent\nPaper covers Rock\n\n\nNow Swipe Left</Text>
+	<Text>That's perfect\nScissors cut Paper\n\n\nSwipe Left to Continue</Text>
+	<Text>All tiles move in the\ndirection of the swipe.\n\n\nSwipe Left to Continue</Text>
+	<Text>Also notice that the colors\nwere different.\n\n\nSwipe Left to Continue</Text>
+	<Text>So what happens if they are\nsame color?\n\nSwipe Down\nand see what happens</Text>
+	<Text>This means RPS rules\nonly apply to a different color.\n\n\nSwipe Left to Continue</Text>
+	<Text>What's the small number\nwritten on the tile?\n\n\nSwipe Left to Continue</Text>
+	<Text>It's called Tile Power (TP).\n\n\n\nSwipe Left to Continue</Text>
+	<Text>RPS rules applies when\nTP of winner(Paper) Larger than\nor Equal to TP of loser(Rock).\n\nSwipe Left to Continue</Text>
+	<Text>Let's try that now.\n\n\nSwipe Right\nand see what happens</Text>
+	<Text>How can I beat them?\n\n\n\nSwipe Left to Continue</Text>
+	<Text>When two tiles of same color\nand same type collide, their TP\nis added to each other.\n\nSwipe Left to Continue</Text>
+	<Text>Let's try that now\n\n\nSwipe Left\nand see what happens</Text>
+	<Text>Excellent\n\n\n\nSwipe Left to Continue</Text>
+	<Text>The max value that TP can reach\nis nine (9).\n\n\nSwipe Left to Continue</Text>
+	<Text>Let's try that now\n\n\nSwipe Right\nand see what happens</Text>
+	<Text>Good\n\n\n\nSwipe Left to Continue</Text>
+	<Text>What happens if you try\nto add more TP?\n\n\nSwipe Left to Continue</Text>
+	<Text>Let's try that now\n\n\nSwipe Up\nand see what happens</Text>
+	<Text>Let's recap the rules.\n\n\n\nSwipe Left to Continue</Text>
+	<Text>RPS rules apply\nif the colors are different,\nTP of winner >= TP of loser.\n\nSwipe Left to Continue</Text>
+	<Text>If tiles of the same color\nand same type collide,\ntheir TP is added to each other.\n\nSwipe Left to Continue</Text>
+	<Text>The max TP is nine.\nYou can't add more TP to\na tile having nine.\n\nSwipe Left to Continue</Text>
+	<Text>Let's test your skills.\nTry to destroy all tiles\nexcept one on the board.\n\nYou are free to Swipe</Text>
+	<Text>Last thing is score\nHow can I score?\n\n\nSwipe Left to Continue</Text>
+	<Text>You score when the blue tile\nbeats red tile.\nThe score increases by the red TP.\n\nSwipe Left to Continue</Text>
+	<Text>Well done! you have finished\nthe tutorial.\n\n\nPress X to Close</Text>
+</TutorialText>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="com/sticksports/nativeExtensions/SilentSwitch" mod="1333435829000" signatureChecksum="3803008728" >
+        <def id="com.sticksports.nativeExtensions:SilentSwitch" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="flash.events:SampleDataEvent" type="e" /> 
+        <dep id="flash.media:Sound" type="e" /> 
+        <dep id="flash.media:SoundChannel" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="flash.events:SampleDataEvent" type="s" /> 
+        <dep id="flash.media:Sound" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="_905ea6e84e45472a999c125eae5bc047057337457fb37843479910a5c87a6808_flash_display_Sprite" mod="1337440346144" signatureChecksum="3141302227" >
+        <def id="_905ea6e84e45472a999c125eae5bc047057337457fb37843479910a5c87a6808_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="ee99ff54c07051236bfdd6254eb5b2775a3e48f0c7bb10a7a21bb028cc012bd1"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

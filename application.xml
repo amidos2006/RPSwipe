@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/14.0">
+  <id>com.Amidos.RPSwipe</id>
+  <versionNumber>1.0.2</versionNumber>
+  <supportedProfiles>mobileDevice</supportedProfiles>
+  <filename>RPSwipe</filename>
+  <name>RPSwipe</name>
+  <android>
+    <manifestAdditions><![CDATA[<manifest android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="9" android:targetSdkVersion="19" />
+	<application>
+		<meta-data android:name="com.google.android.gms.games.APP_ID" android:value="\ 506304732487" />
+		<meta-data android:name="com.google.android.gms.version" android:value="4452000"/>
+	</application>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-feature android:required="true" android:name="android.hardware.touchscreen.multitouch"/>
+</manifest>]]></manifestAdditions>
+  </android>
+  <iPhone>
+    <InfoAdditions><![CDATA[<key>UIStatusBarStyle</key>
+<string>UIStatusBarStyleBlackOpaque</string>
+<key>UIRequiresPersistentWiFi</key>
+<string>NO</string>
+<key>UIPrerenderedIcon</key>
+<true />
+<key>UIApplicationExitsOnSuspend</key>
+<false />
+<key>UIDeviceFamily</key>
+<array>
+	<!-- iPhone support -->
+	<string>1</string>
+	<!-- iPad support -->
+	<string>2</string>
+</array>]]></InfoAdditions>
+    <requestedDisplayResolution>high</requestedDisplayResolution>
+  </iPhone>
+  <initialWindow>
+    <title>RPSwipe</title>
+    <content>RPSwipe.swf</content>
+    <visible>true</visible>
+    <fullScreen>true</fullScreen>
+    <autoOrients>true</autoOrients>
+    <aspectRatio>portrait</aspectRatio>
+    <renderMode>direct</renderMode>
+    <systemChrome>standard</systemChrome>
+  </initialWindow>
+  <icon>
+    <image48x48>icons/RPSwipe48.png</image48x48>
+    <image57x57>icons/RPSwipe57.png</image57x57>
+    <image72x72>icons/RPSwipe72.png</image72x72>
+    <image76x76>icons/RPSwipe76.png</image76x76>
+    <image114x114>icons/RPSwipe114.png</image114x114>
+    <image120x120>icons/RPSwipe120.png</image120x120>
+    <image144x144>icons/RPSwipe144.png</image144x144>
+    <image152x152>icons/RPSwipe152.png</image152x152>
+    <image16x16>icons/RPSwipe16.png</image16x16>
+    <image29x29>icons/RPSwipe29.png</image29x29>
+    <image32x32>icons/RPSwipe32.png</image32x32>
+    <image36x36>icons/RPSwipe36.png</image36x36>
+    <image40x40>icons/RPSwipe40.png</image40x40>
+    <image50x50>icons/RPSwipe50.png</image50x50>
+    <image58x58>icons/RPSwipe58.png</image58x58>
+    <image80x80>icons/RPSwipe80.png</image80x80>
+    <image100x100>icons/RPSwipe100.png</image100x100>
+    <image128x128>icons/RPSwipe128.png</image128x128>
+    <image512x512>icons/RPSwipe512.png</image512x512>
+  </icon>
+  <!-- 
+	AIR options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	
+	AIR mobile options:
+	http://help.adobe.com/en_US/air/build/WSfffb011ac560372f-5d0f4f25128cc9cd0cb-7ffe.html
+	
+	iOS icons guidelines:
+	http://developer.apple.com/library/ios/#documentation/userexperience/conceptual/mobilehig/IconsImages/IconsImages.html
+	
+	Android manifest documentation:
+	http://developer.android.com/guide/topics/manifest/manifest-intro.html
+	-->
+  <copyright>© 2014 Amidos</copyright>
+  <extensions>
+    <extensionID>com.sticksports.nativeExtensions.SilentSwitch</extensionID>
+    <extensionID>com.milkmangames.extensions.GameCenter</extensionID>
+	<extensionID>com.milkmangames.extensions.GoogleGames</extensionID>
+	<extensionID>com.milkmangames.extensions.GoogleServices</extensionID>
+	<extensionID>com.mesmotronic.ane.fullscreen</extensionID>
+  </extensions>
+</application>
